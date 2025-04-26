@@ -1,0 +1,190 @@
+2025-04-25 15:58:53,836 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-04-25 16:01:36,732 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot-WebApp-MySQL-H2DB:0.0.1-SNAPSHOT @ D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\pom.xml.
+2025-04-25 16:01:38,850 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot-WebApp-MySQL-H2DB/src/main/java
+2025-04-25 16:01:38,870 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot-WebApp-MySQL-H2DB/src/main/resources
+2025-04-25 16:01:38,877 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot-WebApp-MySQL-H2DB/src/main/resources
+2025-04-25 16:01:38,883 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot-WebApp-MySQL-H2DB/src/test/java
+2025-04-25 16:01:38,885 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot-WebApp-MySQL-H2DB/src/test/resources
+2025-04-25 16:01:40,325 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-04-25 16:01:40,332 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-25 16:01:41,037 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot-WebApp-MySQL-H2DB:0.0.1-SNAPSHOT @ D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\pom.xml.
+2025-04-25 16:01:42,225 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot-WebApp-MySQL-H2DB/src/main/java
+2025-04-25 16:01:42,226 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot-WebApp-MySQL-H2DB/src/main/resources
+2025-04-25 16:01:42,227 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot-WebApp-MySQL-H2DB/src/main/resources
+2025-04-25 16:01:42,228 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot-WebApp-MySQL-H2DB/src/test/java
+2025-04-25 16:01:42,228 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot-WebApp-MySQL-H2DB/src/test/resources
+2025-04-25 16:01:43,097 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-04-25 16:01:44,815 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:01:44,854 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:01:44,864 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:02:26,908 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:02:26,914 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:02:26,921 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:02:58,934 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:02:58,943 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:02:58,954 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:05:49,632 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:05:49,650 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:05:49,659 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:06:19,937 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:06:19,945 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:06:19,952 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:06:29,143 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:06:29,151 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:06:29,159 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:07:10,853 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:07:10,871 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:07:10,878 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:11:38,981 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:11:38,989 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:11:38,995 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:12:19,558 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:12:19,564 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:12:19,573 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:12:34,857 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:12:34,864 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:12:34,869 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:16:55,415 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:16:55,426 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:16:55,431 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-25 16:47:41,259 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-25 16:47:41,269 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-25 16:47:41,275 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-26 13:59:54,595 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-26 14:03:34,978 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot-WebApp-MySQL-H2DB:0.0.1-SNAPSHOT @ D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\pom.xml.
+2025-04-26 14:03:39,219 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:03:39,242 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:03:39,250 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-26 14:03:41,878 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:03:41,880 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:03:41,887 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\SpringBoot-WebApp-MySQL-H2DB\src\test\resources
+2025-04-26 14:05:19,765 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-26 14:07:31,536 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Contact-Management-Web-App:0.0.1-SNAPSHOT @ D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\pom.xml.
+2025-04-26 14:07:33,742 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Contact-Management-Web-App/src/main/java
+2025-04-26 14:07:33,747 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Contact-Management-Web-App/src/main/resources
+2025-04-26 14:07:33,766 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Contact-Management-Web-App/src/main/resources
+2025-04-26 14:07:33,783 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Contact-Management-Web-App/src/test/java
+2025-04-26 14:07:33,783 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Contact-Management-Web-App/src/test/resources
+2025-04-26 14:07:35,700 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-04-26 14:07:35,705 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-26 14:07:36,514 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Contact-Management-Web-App:0.0.1-SNAPSHOT @ D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\pom.xml.
+2025-04-26 14:07:37,930 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Contact-Management-Web-App/src/main/java
+2025-04-26 14:07:37,930 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Contact-Management-Web-App/src/main/resources
+2025-04-26 14:07:37,932 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Contact-Management-Web-App/src/main/resources
+2025-04-26 14:07:37,932 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Contact-Management-Web-App/src/test/java
+2025-04-26 14:07:37,932 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Contact-Management-Web-App/src/test/resources
+2025-04-26 14:07:38,816 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-04-26 14:07:40,676 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:07:40,717 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:07:40,727 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:13:08,193 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:13:08,204 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:13:08,212 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:13:55,852 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:13:55,862 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:13:55,873 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:14:10,282 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:14:10,290 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:14:10,297 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:23:12,555 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:23:12,564 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:23:12,570 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:27:55,983 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:27:55,989 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:27:55,995 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:28:47,848 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:28:47,866 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:28:47,874 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:29:51,385 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:29:51,390 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:29:51,396 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:34:51,219 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:34:51,224 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:34:51,232 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:35:23,717 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:35:23,723 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:35:23,728 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:35:24,178 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:35:24,181 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:35:24,185 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:35:57,162 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:35:57,167 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:35:57,173 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:37:03,542 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:37:03,547 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:37:03,553 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:39:13,998 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:39:14,008 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:39:14,016 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:39:27,358 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:39:27,365 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:39:27,370 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:42:39,309 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:42:39,316 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:42:39,322 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:47:22,951 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:47:22,960 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:47:22,965 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:49:27,419 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:49:27,432 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:49:27,441 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:49:42,658 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:49:42,672 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:49:42,677 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 14:49:57,779 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 14:49:57,786 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 14:49:57,793 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:02:09,788 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:02:09,795 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:02:09,800 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:16:56,534 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:16:56,545 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:16:56,547 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:20:00,911 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:20:00,913 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:20:00,915 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:24:54,669 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:24:54,673 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:24:54,675 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:26:08,563 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:26:08,564 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:26:08,568 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:26:30,885 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:26:30,885 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:26:30,889 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:26:45,768 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:26:45,768 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:26:45,770 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:26:58,223 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:26:58,223 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:26:58,225 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:27:56,898 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:27:56,899 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:27:56,902 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:28:22,776 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:28:22,776 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:28:22,780 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:28:54,452 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:28:54,452 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:28:54,461 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:29:00,478 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:29:00,479 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:29:00,483 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:29:14,759 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:29:14,760 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:29:14,763 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:39:05,336 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:39:05,339 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-04-26 15:39:05,341 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:42:27,463 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:42:27,464 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:42:27,467 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:58:31,257 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:58:31,258 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:58:31,260 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:59:00,873 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:59:00,874 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:59:00,877 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources
+2025-04-26 15:59:21,419 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-26 15:59:21,419 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-26 15:59:21,423 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\Contact-Management-Web-App\src\test\resources

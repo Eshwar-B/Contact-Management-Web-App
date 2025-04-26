@@ -1,0 +1,51 @@
+package in.ashokit.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import in.ashokit.entity.Contact;
+import in.ashokit.entity.User;
+import in.ashokit.service.ContactService;
+import jakarta.servlet.http.HttpSession;
+
+@Controller 
+public class ContactController {
+	
+	@Autowired
+	private ContactService contactService;
+
+	@GetMapping("/contacts")
+	public String showContactsPage(Model model, HttpSession session)
+	{
+		User user = (User) session.getAttribute("user");
+		if(user != null) {			
+			model.addAttribute("contacts", contactService.getContactForUser(user));
+		}
+		return "contacts";
+	}
+	
+	@GetMapping("/addContact")
+	public String addContactPage(Model model)
+	{
+		model.addAttribute("contact", new Contact());
+		return "addContact";
+	}
+	
+	@PostMapping("/addContact")
+	public String addContact(@ModelAttribute Contact contact, HttpSession session)
+	{
+		User user = (User) session.getAttribute("user");
+
+		if(user != null) {			
+			contact.setUser(user);
+			contactService.addContact(contact);
+		}
+		
+		return "redirect:/contacts";
+	}
+	
+}

@@ -1,0 +1,83 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        p {
+            text-align: center;
+            margin-top: 10px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Add New Contact</h2>
+        <form th:action="@{/addContact}" th:object="${contact}" method="post">
+            <label>Name:</label>
+            <input type="text" th:field="*{name}" required />
+
+            <label>Email:</label>
+            <input type="email" th:field="*{email}" required />
+
+            <label>Phone:</label>
+            <input type="text" th:field="*{phone}" required />
+
+            <label>Address:</label>
+            <input type="text" th:field="*{address}" required />
+
+            <button type="submit">Save Contact</button>
+        </form>
+        <p><a th:href="@{/contacts}">Back to Contacts</a></p>
+    </div>
+</body>
+</html>

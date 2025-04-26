@@ -1,0 +1,62 @@
+package in.ashokit.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import in.ashokit.entity.User;
+import in.ashokit.service.UserService;
+import jakarta.servlet.http.HttpSession;
+
+@Controller
+public class UserController {
+	
+	@Autowired
+	private UserService userService;
+	
+	@GetMapping("/signup")
+	public String showSignUpForm(Model model)
+	{
+		model.addAttribute("user", new User());
+		return "signup";
+	}
+	
+	@PostMapping("/signup")
+	public String processSignUp(@ModelAttribute User user)
+	{
+		userService.registerUser(user);
+		return "redirect:/login";
+	}
+	
+	
+	
+	
+	@GetMapping("/login")
+	public String showLoginForm(Model model)
+	{
+		model.addAttribute("user", new User());
+		return "login";
+	}
+	
+	
+	@PostMapping("/login")
+	public String processLogin(@ModelAttribute User user, Model model, HttpSession session)
+	{
+		User existingUser = userService.findByEmail(user.getEmail());
+		
+		if(existingUser != null && existingUser.getPassword().equals(user.getPassword()))
+		{
+			session.setAttribute("user", existingUser);
+			return "redirect:/contacts";
+		}
+		else 
+		{
+			model.addAttribute("error", "InvalidCredentials");
+			return "login";	
+		}
+	}
+	
+}

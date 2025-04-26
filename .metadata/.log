@@ -1,0 +1,291 @@
+!SESSION 2025-04-25 15:58:37.872 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 D:\VS Code\Microsoft VS Code\bin\code
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 D:\VS Code\Microsoft VS Code\bin\code
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 15:58:42.023
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-25 15:58:42.384
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 15:58:43.904
+!MESSAGE Logback config file: D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 15:58:44.579
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 15:58:44.579
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 15:58:45.200
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 15:58:45.200
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-04-25 15:58:52.261
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-25 15:58:53.880
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Eshwar Boini'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:01:39.862
+!MESSAGE Classpath changed for project: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:01:39.864
+!MESSAGE Boot project ADDED: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:01:39.864
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:01:39.900
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 16:01:39.943
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/advanced java/Spring Web MVC/SpringBoot-TwoDatabases/SpringBoot-WebApp-MySQL-H2DB/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745577099941
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:01:39.944
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 16:01:39.954
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13052
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:01:42.754
+!MESSAGE Classpath changed for project: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.eclipse.jface 2 0 2025-04-25 16:17:22.343
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-25 16:17:22.344
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-04-26 13:57:57.273 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-26 13:59:36.814
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-26 13:59:37.305
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-26 13:59:41.502
+!MESSAGE Logback config file: D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-26 13:59:42.530
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-26 13:59:42.530
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-26 13:59:43.286
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-26 13:59:43.286
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-26 13:59:53.096
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/advanced java/Spring Web MVC/SpringBoot-TwoDatabases/SpringBoot-WebApp-MySQL-H2DB/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745656193093
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 13:59:53.096
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-26 13:59:53.147
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2580
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-26 13:59:55.071
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Eshwar Boini'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 13:59:55.154
+!MESSAGE Boot project ADDED: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 13:59:55.157
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 13:59:55.160
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.jface 2 0 2025-04-26 14:01:38.940
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-26 14:01:38.941
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:02:54.228
+!MESSAGE Classpath changed for project: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:02:54.229
+!MESSAGE Boot project REMOVED: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:03:28.755
+!MESSAGE Classpath changed for project: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:03:39.518
+!MESSAGE Classpath changed for project: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:03:39.540
+!MESSAGE Boot project ADDED: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:03:39.612
+!MESSAGE Classpath changed for project: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:03:48.553
+!MESSAGE Classpath changed for project: SpringBoot-WebApp-MySQL-H2DB
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:03:48.554
+!MESSAGE Boot project REMOVED: SpringBoot-WebApp-MySQL-H2DB
+!SESSION 2025-04-26 14:05:00.858 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 D:\VS Code\Microsoft VS Code\bin\code
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 D:\VS Code\Microsoft VS Code\bin\code
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-26 14:05:07.685
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-26 14:05:08.065
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-26 14:05:10.048
+!MESSAGE Logback config file: D:\advanced java\Spring Web MVC\SpringBoot-TwoDatabases\SpringBoot-WebApp-MySQL-H2DB\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-26 14:05:11.051
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-26 14:05:11.051
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-26 14:05:11.751
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-26 14:05:11.751
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-26 14:05:19.810
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Eshwar Boini'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:07:34.751
+!MESSAGE Classpath changed for project: Contact-Management-Web-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:07:34.753
+!MESSAGE Boot project ADDED: Contact-Management-Web-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:07:34.754
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:07:34.788
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-26 14:07:34.810
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/advanced java/Spring Web MVC/SpringBoot-TwoDatabases/SpringBoot-WebApp-MySQL-H2DB/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745656654808
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:07:34.810
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-26 14:07:34.821
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8888
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 14:07:38.451
+!MESSAGE Classpath changed for project: Contact-Management-Web-App
+
+!ENTRY org.eclipse.jface 2 0 2025-04-26 14:12:09.933
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-26 14:12:09.933
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
